@@ -9,7 +9,7 @@ To this end, this repository provides a reporting protocol that treats the compl
 - [checklist.md](checklist.md) gives the protocol (version 1.0.0) with its eight steps and stable machine-readable identifiers.
 - [templates](templates) contains an author-record template in Markdown, LaTeX, and PDF.
 - [schema/reporting-checklist.schema.json](schema/reporting-checklist.schema.json) defines the machine-readable format for author records, records completed from publications, and retrospective audits, including an optional structured stage ledger.
-- [examples](examples) contains two worked records completed from publications, for the MatterGen bulk-modulus campaign and for an active-learning study of high-entropy oxygen carriers, together with two retrospective audits.
+- [examples](examples) contains two worked records completed from publications, for the MatterGen bulk-modulus campaign and for an active-learning study of high-entropy oxygen carriers, together with an author record of the oxygen-carrier study completed from its run records, which shows what the authors can add to the published account, and two retrospective audits.
 - [tools/validate.py](tools/validate.py) checks records for completeness, allowed answers, and basic types, using only the Python standard library.
 - [figure2](figure2) contains the stage counts and plotting script behind Figure 2 of the accompanying article.
 - [legacy/v0.2.0](legacy/v0.2.0) preserves the previous version of the checklist, schema, validator, templates, and audits unchanged.
