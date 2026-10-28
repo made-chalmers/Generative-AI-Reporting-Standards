@@ -85,10 +85,11 @@
     },
     {
       "id": "baselines",
-      "answer": "not_performed",
-      "entry": "A matched random or enumerative search at the same number of CHGNet evaluations was not performed; the conclusion is bounded as in the publication record, namely that the loop improves OTC relative to the initial pool, not that it outperforms simpler search strategies.",
+      "answer": "value",
+      "entry": "As in the publication record, with the budget confirmed: in the proof-of-concept tasks for dry reforming and air separation, the random search of the composition space used the same number of runs, cycles, and candidates per cycle as the guided strategies, and hence the same number of CHGNet evaluations. A random search for the OTC target and an ablation of the generative model were not performed. Consequence: guided selection outperforms random search at a matched budget for the proof-of-concept targets, whereas for the reported oxygen carriers the conclusion remains that the loop improves OTC relative to the initial pool.",
       "source_locations": [
-        "Publication record: examples/brorsson-2026.json"
+        "Publication record: examples/brorsson-2026.json",
+        "Run records of the study, held by the authors (not publicly deposited)"
       ]
     },
     {

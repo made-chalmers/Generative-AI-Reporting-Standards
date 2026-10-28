@@ -2,7 +2,7 @@
 
 A reporting protocol is only useful if its requirements are stable and the reason for each requirement is clear. Versions therefore follow `MAJOR.MINOR.PATCH`, where a major version changes how the protocol is interpreted (items added, removed, or materially redefined), a minor version adds backward-compatible clarifications, and a patch corrects typographical or purely editorial errors. Every change is listed together with its reason.
 
-## v1.0.0 (2026-10-09)
+## v1.0.0 (2026-10-28)
 
 Version 1.0.0 was revised after version 0.2.0 had been applied retrospectively to published studies and to the two worked examples in this repository. In practice, these applications showed where the earlier checklist was ambiguous, and every change below addresses one such ambiguity. Version 1.0.0 is frozen, and later changes will be recorded here in the same form.
 

@@ -130,10 +130,11 @@
     {
       "id": "baselines",
       "answer": "value",
-      "entry": "Thompson sampling is compared with random selection in the dry-reforming proof of concept and with greedy selection in this campaign, using the same generator, filters, and evaluator. Not reported: a random or enumerative search of the same composition space at the same number of CHGNet evaluations, and an ablation of the generative model. Consequence: the published record supports improvement of OTC relative to the initial pool, but not superiority over simpler search strategies.",
+      "entry": "In the proof-of-concept tasks for dry reforming and air separation, the loop is compared with a random search, in which candidates are chosen at random from the composition space independently of the surrogate model, and with explorative and greedy acquisition, each over five runs with the same evaluator; random selection yields mostly low-scoring candidates. In this campaign, Thompson sampling is compared with greedy sampling. Not reported: the number of evaluations behind each strategy, so that matched budgets cannot be confirmed; a random search for the OTC target; and an ablation of the generative model. Consequence: the published record supports the conclusions that the loop improves OTC relative to the initial pool and that guided selection outperforms random search for the proof-of-concept targets, but not that it outperforms random search for the reported oxygen carriers.",
       "source_locations": [
         "Brorsson et al., ACS Materials Au 6, 319-326 (2026), Fig. 2",
-        "Brorsson et al., METAL preprint, arXiv:2601.03933, Sec. III"
+        "Brorsson et al., Materials Today Energy 57, 102239 (2026), Figs. 2 and 4",
+        "Brorsson et al., METAL preprint, arXiv:2601.03933, Sec. II.C"
       ]
     },
     {
